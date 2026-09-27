@@ -1,3 +1,5 @@
+TrustLend: built at HackGenix 2026 (Technosummit) by Akshay S Krishnan, Chakradeep, Tanush and Gokul. Original team repo: https://github.com/chakradeepreddy/trustlend · Live demo: https://trustlend.streamlit.app
+
 # TrustLend
 
 ### A loan AI that knows when to ask a human.

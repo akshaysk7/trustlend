@@ -71,7 +71,7 @@ with card("demo", "A · Demo applicants"):
     for c, name in zip(cols, PRESETS):
         with c:
             with st.container(key=f"preset_active_{name}" if name == active else f"preset_{name}"):
-                st.button(name.upper(), key=f"btn_{name}", on_click=load_preset, args=(name,), width="stretch")
+                st.button(name.upper(), key=f"btn_{name}", on_click=load_preset, args=(name,), use_container_width=True)
             st.caption(CAPTIONS.get(name, ""))
 
 left, right = st.columns([1, 1.4])
